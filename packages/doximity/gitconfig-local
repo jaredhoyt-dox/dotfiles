@@ -1,0 +1,10 @@
+[user]
+  name = Jared Hoyt
+  email = jhoyt@doximity.com
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIABEvln7+cfQjHrwRqRxXOqplEkzSWOeCvOyHFmDKegd
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+[commit]
+  gpgsign = true

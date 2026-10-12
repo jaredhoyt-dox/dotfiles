@@ -1,0 +1,6 @@
+cask "aws-vault-binary"
+cask "claude-code"
+cask "sequel-ace"
+
+brew "docker-credential-helper"
+brew "docker-compose"

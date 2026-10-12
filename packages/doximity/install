@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Keep work-specific Git settings outside the branch-controlled Git config.
+# This is deliberately a copy: switching dotfiles branches must not change it.
+install -m 600 "$package/gitconfig-local" "$HOME/.gitconfig-local"
